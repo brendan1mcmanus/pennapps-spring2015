@@ -10,9 +10,6 @@ import UIKit
 import CoreData
 import Foundation
 
-let kAPIExplorerID = "02Z1p-jM0AI" as NSString
-let kAPIExplorerSecret = "cb74fe51ba74ffc68343e33a067d1a542399d98f" as NSString
-var startingDate:NSDate = NSDate()
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -34,27 +31,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         PFACL.setDefaultACL(defaultACL, withAccessForCurrentUser: true)
         
         
-        UPPlatform.sharedPlatform().startSessionWithClientID(kAPIExplorerID, clientSecret: kAPIExplorerSecret, authScope: UPPlatformAuthScope.All) { (session:UPSession!, error:NSError!) -> Void in
-            if (session != nil) {
-                
-            }
-        }
-        
-        
         UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
         
         return true
     }
-    
-    func testDateRangeCall() {
-    
-    NSLog("start: %@; end: %@", startingDate, NSDate());
-        UPMoveAPI.getMovesFromStartDate(startingDate, toEndDate: NSDate()) { (results:[AnyObject]!, response:UPURLResponse!, error:NSError!) -> Void in
-            NSLog("Any error: %@", error);
-            NSLog("This came back in 'Results': \n\n%@", results);
-        }
-    }
-    
     
     
     

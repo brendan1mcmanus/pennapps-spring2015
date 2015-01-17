@@ -65,6 +65,8 @@
 		C62F4D381A69D9A4003E9FDB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F4D371A69D9A4003E9FDB /* StoreKit.framework */; };
 		C62F4D3A1A69D9AC003E9FDB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F4D391A69D9AC003E9FDB /* SystemConfiguration.framework */; };
 		C68D70241A6A0C1F0028EBF3 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C68D70231A6A0C1F0028EBF3 /* backbutton.png */; };
+		C68D702B1A6A17830028EBF3 /* JawboneFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C68D702A1A6A17830028EBF3 /* JawboneFunction.m */; };
+		C68D702F1A6A25D80028EBF3 /* HUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68D702E1A6A25D80028EBF3 /* HUViewController.m */; };
 		C69B8DCF1A69F44F00370DC2 /* UPPlatformSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69B8DCE1A69F44F00370DC2 /* UPPlatformSDK.framework */; };
 		C69B8DD11A6A0ABE00370DC2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B8DD01A6A0ABE00370DC2 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -144,6 +146,10 @@
 		C62F4D391A69D9AC003E9FDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C62F4D3B1A69DB9B003E9FDB /* UPPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UPPlatform.framework; path = "../../../Downloads/UPPlatform_iOS_SDK-master/UPPlatform.framework"; sourceTree = "<group>"; };
 		C68D70231A6A0C1F0028EBF3 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
+		C68D702A1A6A17830028EBF3 /* JawboneFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JawboneFunction.m; sourceTree = "<group>"; };
+		C68D702C1A6A18B80028EBF3 /* JawboneFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JawboneFunction.h; sourceTree = "<group>"; };
+		C68D702D1A6A25D80028EBF3 /* HUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUViewController.h; sourceTree = "<group>"; };
+		C68D702E1A6A25D80028EBF3 /* HUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUViewController.m; sourceTree = "<group>"; };
 		C69B8DCE1A69F44F00370DC2 /* UPPlatformSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UPPlatformSDK.framework; sourceTree = "<group>"; };
 		C69B8DD01A6A0ABE00370DC2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,14 +218,18 @@
 		C62F4C511A69D569003E9FDB /* emoteful */ = {
 			isa = PBXGroup;
 			children = (
+				C68D702C1A6A18B80028EBF3 /* JawboneFunction.h */,
+				C68D702A1A6A17830028EBF3 /* JawboneFunction.m */,
+				C68D702D1A6A25D80028EBF3 /* HUViewController.h */,
+				C68D702E1A6A25D80028EBF3 /* HUViewController.m */,
 				C62F4CE01A69D895003E9FDB /* Main.storyboard */,
 				C62F4C5E1A69D569003E9FDB /* Images.xcassets */,
 				C62F4C541A69D569003E9FDB /* AppDelegate.swift */,
 				C62F4CDE1A69D889003E9FDB /* ViewController.swift */,
 				C62F4CDC1A69D86E003E9FDB /* File.swift */,
+				C62F4CE41A69D89E003E9FDB /* HomeViewController.swift */,
 				C62F4CE21A69D89E003E9FDB /* EmotionViewController.swift */,
 				C62F4CE31A69D89E003E9FDB /* ReasonViewController.swift */,
-				C62F4CE41A69D89E003E9FDB /* HomeViewController.swift */,
 				C69B8DD01A6A0ABE00370DC2 /* SettingsViewController.swift */,
 				C62F4CE51A69D89E003E9FDB /* CustomNavigationSegue.swift */,
 				C62F4CE61A69D89E003E9FDB /* CustomTabBar.swift */,
@@ -447,7 +457,9 @@
 				C62F4CDD1A69D86E003E9FDB /* File.swift in Sources */,
 				C62F4CEB1A69D89E003E9FDB /* CustomTabBar.swift in Sources */,
 				C62F4C581A69D569003E9FDB /* emoteful.xcdatamodeld in Sources */,
+				C68D702B1A6A17830028EBF3 /* JawboneFunction.m in Sources */,
 				C62F4CDF1A69D889003E9FDB /* ViewController.swift in Sources */,
+				C68D702F1A6A25D80028EBF3 /* HUViewController.m in Sources */,
 				C62F4CE91A69D89E003E9FDB /* HomeViewController.swift in Sources */,
 				C62F4C551A69D569003E9FDB /* AppDelegate.swift in Sources */,
 			);

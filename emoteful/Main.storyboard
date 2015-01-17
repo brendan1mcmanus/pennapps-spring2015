@@ -29,10 +29,10 @@
             </objects>
             <point key="canvasLocation" x="-1539" y="312"/>
         </scene>
-        <!--Settings View Controller-->
+        <!--View Controller-->
         <scene sceneID="wp2-4M-yu5">
             <objects>
-                <viewController id="It8-gR-Pt0" customClass="SettingsViewController" customModule="emoteful" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="It8-gR-Pt0" customClass="HUViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ryf-wV-ZUN"/>
                         <viewControllerLayoutGuide type="bottom" id="Uck-zC-CDJ"/>
@@ -40,6 +40,26 @@
                     <view key="view" contentMode="scaleToFill" id="gc2-cN-b5q">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UeO-XR-ySn">
+                                <rect key="frame" x="113" y="71" width="95" height="30"/>
+                                <state key="normal" title="Connect Nest">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="connectNest:" destination="It8-gR-Pt0" eventType="touchUpInside" id="oqX-Zr-I9H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eqe-Ba-NEm">
+                                <rect key="frame" x="98" y="174" width="125" height="30"/>
+                                <state key="normal" title="Connect Jawbone">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapLogin:" destination="It8-gR-Pt0" eventType="touchUpInside" id="Xxw-fM-4xD"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="6Gf-7b-Z0D"/>
@@ -47,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wt2-aY-ekL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-506" y="-803"/>
+            <point key="canvasLocation" x="-168" y="-1012"/>
         </scene>
         <!--testapp-->
         <scene sceneID="hQ7-ca-FAa">
@@ -209,8 +229,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQC-jj-Pz2">
-                                <rect key="frame" x="25" y="15" width="35" height="30"/>
+                                <rect key="frame" x="25" y="24" width="35" height="30"/>
                                 <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
