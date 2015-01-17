@@ -40,13 +40,14 @@ class ViewController: UIViewController, PFLogInViewControllerDelegate, PFSignUpV
         
         login.delegate = self
         login.signUpController.delegate = self
-        self.presentViewController(login, animated: true, completion: nil)
+        //self.presentViewController(login, animated: true, completion: nil)
+        
 
         
     }
     
     func logInViewController(logInController: PFLogInViewController!, didLogInUser user: PFUser!) {
-        
+        self.dismissViewControllerAnimated(true, completion: nil)
         
     }
     

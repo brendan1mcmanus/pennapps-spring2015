@@ -50,12 +50,6 @@ class HomeViewController : UIViewController {
             UIGraphicsEndImageContext();
             
         }
-        
-        if (segue.identifier == "settings") {
-            
-            let vc = segue.destinationViewController as SettingsViewController
-            
-        }
     }
     
     

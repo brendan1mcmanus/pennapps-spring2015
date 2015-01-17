@@ -33,33 +33,6 @@ class SettingsViewController: UIViewController {
         
         UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
     }
-    
-    @IBAction func connectNest(sender: UIButton) {
-    }
-
-    @IBAction func connectJawbone(sender: UIButton) {
-        NSLog("button has been pressed")
-        method()
-        
-    }
-    
-    
-    func method() {
-        // create an instance of the class
-        var myObjClass:JawboneFunction = JawboneFunction()
-        
-        // call its method
-        myObjClass.method()
-    }
-    
-    func testDateRangeCall() {
-        
-        NSLog("start: %@; end: %@", startingDate, NSDate());
-        UPMoveAPI.getMovesFromStartDate(startingDate, toEndDate: NSDate()) { (results:[AnyObject]!, response:UPURLResponse!, error:NSError!) -> Void in
-            NSLog("Any error: %@", error);
-            NSLog("This came back in 'Results': \n\n%@", results);
-        }
-    }
 
     
 }

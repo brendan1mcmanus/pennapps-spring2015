@@ -5,5 +5,6 @@
 
 #import <Parse/Parse.h>
 #import <Bolts/Bolts.h>
-#import <UPPlatformSDK/UPPlatformSDK.h>
-#import "JawboneFunction.h"
+#import "JBLandingViewController.h"
+#import "UP.h"
+#import "MovesGraph.m"

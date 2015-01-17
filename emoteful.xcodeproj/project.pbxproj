@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C61905561A6AC9B100F48764 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61905551A6AC9B100F48764 /* WebKit.framework */; };
+		C61905781A6ACB9800F48764 /* JBLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905771A6ACB9800F48764 /* JBLandingViewController.m */; };
+		C61905BF1A6ACC1700F48764 /* NSDate+UPPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905921A6ACC1700F48764 /* NSDate+UPPlatform.m */; };
+		C61905C01A6ACC1700F48764 /* NSDictionary+UPPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905941A6ACC1700F48764 /* NSDictionary+UPPlatform.m */; };
+		C61905C11A6ACC1700F48764 /* UPAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905971A6ACC1700F48764 /* UPAuthViewController.m */; };
+		C61905C21A6ACC1700F48764 /* UPBandEventAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905991A6ACC1700F48764 /* UPBandEventAPI.m */; };
+		C61905C31A6ACC1700F48764 /* UPBaseEventAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C619059B1A6ACC1700F48764 /* UPBaseEventAPI.m */; };
+		C61905C41A6ACC1700F48764 /* UPBodyEventAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C619059D1A6ACC1700F48764 /* UPBodyEventAPI.m */; };
+		C61905C51A6ACC1700F48764 /* UPCardiacEventAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C619059F1A6ACC1700F48764 /* UPCardiacEventAPI.m */; };
+		C61905C61A6ACC1700F48764 /* UPGenericEventAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905A21A6ACC1700F48764 /* UPGenericEventAPI.m */; };
+		C61905C71A6ACC1700F48764 /* UPMealAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905A41A6ACC1700F48764 /* UPMealAPI.m */; };
+		C61905C81A6ACC1700F48764 /* UPMoodAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905A61A6ACC1700F48764 /* UPMoodAPI.m */; };
+		C61905C91A6ACC1700F48764 /* UPMoveAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905A81A6ACC1700F48764 /* UPMoveAPI.m */; };
+		C61905CA1A6ACC1700F48764 /* UPPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905AA1A6ACC1700F48764 /* UPPlatform.m */; };
+		C61905CB1A6ACC1700F48764 /* UPPlatformSDK-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C61905AB1A6ACC1700F48764 /* UPPlatformSDK-Info.plist */; };
+		C61905CC1A6ACC1700F48764 /* UPPlatformSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905AF1A6ACC1700F48764 /* UPPlatformSDK.m */; };
+		C61905CD1A6ACC1700F48764 /* UPSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905B11A6ACC1700F48764 /* UPSession.m */; };
+		C61905CE1A6ACC1700F48764 /* UPSleepAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905B31A6ACC1700F48764 /* UPSleepAPI.m */; };
+		C61905CF1A6ACC1700F48764 /* UPURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905B51A6ACC1700F48764 /* UPURLRequest.m */; };
+		C61905D01A6ACC1700F48764 /* UPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905B71A6ACC1700F48764 /* UPURLResponse.m */; };
+		C61905D11A6ACC1700F48764 /* UPUserAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905B91A6ACC1700F48764 /* UPUserAPI.m */; };
+		C61905D21A6ACC1700F48764 /* UPWorkoutAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C61905BB1A6ACC1700F48764 /* UPWorkoutAPI.m */; };
+		C61905DD1A6ACD1E00F48764 /* libUPPlatformSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C61905D81A6ACC1700F48764 /* libUPPlatformSDK.a */; };
+		C61905DF1A6ACD9B00F48764 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61905DE1A6ACD9B00F48764 /* UIKit.framework */; };
+		C61905E11A6ACDA500F48764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61905E01A6ACDA500F48764 /* Foundation.framework */; };
+		C61905EC1A6AD0D500F48764 /* libUPPlatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C61905DC1A6ACC1700F48764 /* libUPPlatform.a */; };
+		C61905EF1A6ADF1100F48764 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61905EE1A6ADF1100F48764 /* Body.swift */; };
+		C61905F11A6ADF1A00F48764 /* Mind.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61905F01A6ADF1A00F48764 /* Mind.swift */; };
+		C61905F31A6ADF2100F48764 /* Lifestyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61905F21A6ADF2100F48764 /* Lifestyle.swift */; };
 		C62F4C551A69D569003E9FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F4C541A69D569003E9FDB /* AppDelegate.swift */; };
 		C62F4C581A69D569003E9FDB /* emoteful.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C62F4C561A69D569003E9FDB /* emoteful.xcdatamodeld */; };
 		C62F4C5F1A69D569003E9FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62F4C5E1A69D569003E9FDB /* Images.xcassets */; };
@@ -65,13 +94,32 @@
 		C62F4D381A69D9A4003E9FDB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F4D371A69D9A4003E9FDB /* StoreKit.framework */; };
 		C62F4D3A1A69D9AC003E9FDB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F4D391A69D9AC003E9FDB /* SystemConfiguration.framework */; };
 		C68D70241A6A0C1F0028EBF3 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C68D70231A6A0C1F0028EBF3 /* backbutton.png */; };
-		C68D702B1A6A17830028EBF3 /* JawboneFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C68D702A1A6A17830028EBF3 /* JawboneFunction.m */; };
-		C68D702F1A6A25D80028EBF3 /* HUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68D702E1A6A25D80028EBF3 /* HUViewController.m */; };
-		C69B8DCF1A69F44F00370DC2 /* UPPlatformSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69B8DCE1A69F44F00370DC2 /* UPPlatformSDK.framework */; };
 		C69B8DD11A6A0ABE00370DC2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B8DD01A6A0ABE00370DC2 /* SettingsViewController.swift */; };
+		C6A91E311A6AE7770020216F /* MovesGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A91E301A6AE7770020216F /* MovesGraph.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C61905D71A6ACC1700F48764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61905BC1A6ACC1700F48764 /* UPPlatformSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E3E46C0017173670009CCA56;
+			remoteInfo = UPPlatformSDK;
+		};
+		C61905D91A6ACC1700F48764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61905BC1A6ACC1700F48764 /* UPPlatformSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 48FA5F891768CA7900025723;
+			remoteInfo = "UPPlatformSDK-OSX";
+		};
+		C61905DB1A6ACC1700F48764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61905BC1A6ACC1700F48764 /* UPPlatformSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FE2964118D24AD80047F094;
+			remoteInfo = UPPlatform;
+		};
 		C62F4C681A69D569003E9FDB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C62F4C471A69D569003E9FDB /* Project object */;
@@ -82,6 +130,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C61905551A6AC9B100F48764 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C61905741A6ACB4900F48764 /* libUPPlatformSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUPPlatformSDK.a; path = "../../../Library/Developer/Xcode/DerivedData/APIExplorer-fjylwabfyqhrkodgdtwnpotksbln/Build/Products/Debug-iphoneos/libUPPlatformSDK.a"; sourceTree = "<group>"; };
+		C61905761A6ACB9800F48764 /* JBLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLandingViewController.h; sourceTree = "<group>"; };
+		C61905771A6ACB9800F48764 /* JBLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLandingViewController.m; sourceTree = "<group>"; };
+		C61905911A6ACC1700F48764 /* NSDate+UPPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+UPPlatform.h"; sourceTree = "<group>"; };
+		C61905921A6ACC1700F48764 /* NSDate+UPPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+UPPlatform.m"; sourceTree = "<group>"; };
+		C61905931A6ACC1700F48764 /* NSDictionary+UPPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+UPPlatform.h"; sourceTree = "<group>"; };
+		C61905941A6ACC1700F48764 /* NSDictionary+UPPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+UPPlatform.m"; sourceTree = "<group>"; };
+		C61905951A6ACC1700F48764 /* UP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UP.h; sourceTree = "<group>"; };
+		C61905961A6ACC1700F48764 /* UPAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAuthViewController.h; sourceTree = "<group>"; };
+		C61905971A6ACC1700F48764 /* UPAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPAuthViewController.m; sourceTree = "<group>"; };
+		C61905981A6ACC1700F48764 /* UPBandEventAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPBandEventAPI.h; sourceTree = "<group>"; };
+		C61905991A6ACC1700F48764 /* UPBandEventAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPBandEventAPI.m; sourceTree = "<group>"; };
+		C619059A1A6ACC1700F48764 /* UPBaseEventAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPBaseEventAPI.h; sourceTree = "<group>"; };
+		C619059B1A6ACC1700F48764 /* UPBaseEventAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPBaseEventAPI.m; sourceTree = "<group>"; };
+		C619059C1A6ACC1700F48764 /* UPBodyEventAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPBodyEventAPI.h; sourceTree = "<group>"; };
+		C619059D1A6ACC1700F48764 /* UPBodyEventAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPBodyEventAPI.m; sourceTree = "<group>"; };
+		C619059E1A6ACC1700F48764 /* UPCardiacEventAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCardiacEventAPI.h; sourceTree = "<group>"; };
+		C619059F1A6ACC1700F48764 /* UPCardiacEventAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCardiacEventAPI.m; sourceTree = "<group>"; };
+		C61905A01A6ACC1700F48764 /* UPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPDefines.h; sourceTree = "<group>"; };
+		C61905A11A6ACC1700F48764 /* UPGenericEventAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPGenericEventAPI.h; sourceTree = "<group>"; };
+		C61905A21A6ACC1700F48764 /* UPGenericEventAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPGenericEventAPI.m; sourceTree = "<group>"; };
+		C61905A31A6ACC1700F48764 /* UPMealAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPMealAPI.h; sourceTree = "<group>"; };
+		C61905A41A6ACC1700F48764 /* UPMealAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPMealAPI.m; sourceTree = "<group>"; };
+		C61905A51A6ACC1700F48764 /* UPMoodAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPMoodAPI.h; sourceTree = "<group>"; };
+		C61905A61A6ACC1700F48764 /* UPMoodAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPMoodAPI.m; sourceTree = "<group>"; };
+		C61905A71A6ACC1700F48764 /* UPMoveAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPMoveAPI.h; sourceTree = "<group>"; };
+		C61905A81A6ACC1700F48764 /* UPMoveAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPMoveAPI.m; sourceTree = "<group>"; };
+		C61905A91A6ACC1700F48764 /* UPPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPlatform.h; sourceTree = "<group>"; };
+		C61905AA1A6ACC1700F48764 /* UPPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPPlatform.m; sourceTree = "<group>"; };
+		C61905AB1A6ACC1700F48764 /* UPPlatformSDK-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UPPlatformSDK-Info.plist"; sourceTree = "<group>"; };
+		C61905AC1A6ACC1700F48764 /* UPPlatformSDK-OS-X-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UPPlatformSDK-OS-X-Prefix.pch"; sourceTree = "<group>"; };
+		C61905AD1A6ACC1700F48764 /* UPPlatformSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UPPlatformSDK-Prefix.pch"; sourceTree = "<group>"; };
+		C61905AE1A6ACC1700F48764 /* UPPlatformSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPlatformSDK.h; sourceTree = "<group>"; };
+		C61905AF1A6ACC1700F48764 /* UPPlatformSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPPlatformSDK.m; sourceTree = "<group>"; };
+		C61905B01A6ACC1700F48764 /* UPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPSession.h; sourceTree = "<group>"; };
+		C61905B11A6ACC1700F48764 /* UPSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPSession.m; sourceTree = "<group>"; };
+		C61905B21A6ACC1700F48764 /* UPSleepAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPSleepAPI.h; sourceTree = "<group>"; };
+		C61905B31A6ACC1700F48764 /* UPSleepAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPSleepAPI.m; sourceTree = "<group>"; };
+		C61905B41A6ACC1700F48764 /* UPURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPURLRequest.h; sourceTree = "<group>"; };
+		C61905B51A6ACC1700F48764 /* UPURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPURLRequest.m; sourceTree = "<group>"; };
+		C61905B61A6ACC1700F48764 /* UPURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPURLResponse.h; sourceTree = "<group>"; };
+		C61905B71A6ACC1700F48764 /* UPURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPURLResponse.m; sourceTree = "<group>"; };
+		C61905B81A6ACC1700F48764 /* UPUserAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPUserAPI.h; sourceTree = "<group>"; };
+		C61905B91A6ACC1700F48764 /* UPUserAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPUserAPI.m; sourceTree = "<group>"; };
+		C61905BA1A6ACC1700F48764 /* UPWorkoutAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPWorkoutAPI.h; sourceTree = "<group>"; };
+		C61905BB1A6ACC1700F48764 /* UPWorkoutAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPWorkoutAPI.m; sourceTree = "<group>"; };
+		C61905BC1A6ACC1700F48764 /* UPPlatformSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = UPPlatformSDK.xcodeproj; sourceTree = "<group>"; };
+		C61905DE1A6ACD9B00F48764 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C61905E01A6ACDA500F48764 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C61905EE1A6ADF1100F48764 /* Body.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
+		C61905F01A6ADF1A00F48764 /* Mind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mind.swift; sourceTree = "<group>"; };
+		C61905F21A6ADF2100F48764 /* Lifestyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lifestyle.swift; sourceTree = "<group>"; };
 		C62F4C4F1A69D569003E9FDB /* emoteful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emoteful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62F4C531A69D569003E9FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C62F4C541A69D569003E9FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,14 +245,10 @@
 		C62F4D351A69D99E003E9FDB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C62F4D371A69D9A4003E9FDB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		C62F4D391A69D9AC003E9FDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C62F4D3B1A69DB9B003E9FDB /* UPPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UPPlatform.framework; path = "../../../Downloads/UPPlatform_iOS_SDK-master/UPPlatform.framework"; sourceTree = "<group>"; };
 		C68D70231A6A0C1F0028EBF3 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
-		C68D702A1A6A17830028EBF3 /* JawboneFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JawboneFunction.m; sourceTree = "<group>"; };
-		C68D702C1A6A18B80028EBF3 /* JawboneFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JawboneFunction.h; sourceTree = "<group>"; };
-		C68D702D1A6A25D80028EBF3 /* HUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUViewController.h; sourceTree = "<group>"; };
-		C68D702E1A6A25D80028EBF3 /* HUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUViewController.m; sourceTree = "<group>"; };
 		C69B8DCE1A69F44F00370DC2 /* UPPlatformSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UPPlatformSDK.framework; sourceTree = "<group>"; };
 		C69B8DD01A6A0ABE00370DC2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C6A91E301A6AE7770020216F /* MovesGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovesGraph.m; path = ../MovesGraph.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +256,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61905EC1A6AD0D500F48764 /* libUPPlatform.a in Frameworks */,
+				C61905E11A6ACDA500F48764 /* Foundation.framework in Frameworks */,
+				C61905DF1A6ACD9B00F48764 /* UIKit.framework in Frameworks */,
+				C61905DD1A6ACD1E00F48764 /* libUPPlatformSDK.a in Frameworks */,
+				C61905561A6AC9B100F48764 /* WebKit.framework in Frameworks */,
 				C62F4D3A1A69D9AC003E9FDB /* SystemConfiguration.framework in Frameworks */,
 				C62F4D381A69D9A4003E9FDB /* StoreKit.framework in Frameworks */,
 				C62F4D361A69D99E003E9FDB /* Security.framework in Frameworks */,
@@ -178,7 +280,6 @@
 				C62F4CD71A69D79A003E9FDB /* ParseUI.framework in Frameworks */,
 				C62F4CD51A69D79A003E9FDB /* ParseCrashReporting.framework in Frameworks */,
 				C62F4CD61A69D79A003E9FDB /* ParseFacebookUtils.framework in Frameworks */,
-				C69B8DCF1A69F44F00370DC2 /* UPPlatformSDK.framework in Frameworks */,
 				C62F4CD41A69D79A003E9FDB /* Parse.framework in Frameworks */,
 				C62F4CD31A69D79A003E9FDB /* Bolts.framework in Frameworks */,
 			);
@@ -194,9 +295,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C619058F1A6ACC1700F48764 /* UPPlatformSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C61905901A6ACC1700F48764 /* UPPlatformSDK */,
+				C61905BC1A6ACC1700F48764 /* UPPlatformSDK.xcodeproj */,
+			);
+			path = UPPlatformSDK;
+			sourceTree = "<group>";
+		};
+		C61905901A6ACC1700F48764 /* UPPlatformSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C61905911A6ACC1700F48764 /* NSDate+UPPlatform.h */,
+				C61905921A6ACC1700F48764 /* NSDate+UPPlatform.m */,
+				C61905931A6ACC1700F48764 /* NSDictionary+UPPlatform.h */,
+				C61905941A6ACC1700F48764 /* NSDictionary+UPPlatform.m */,
+				C61905951A6ACC1700F48764 /* UP.h */,
+				C61905961A6ACC1700F48764 /* UPAuthViewController.h */,
+				C61905971A6ACC1700F48764 /* UPAuthViewController.m */,
+				C61905981A6ACC1700F48764 /* UPBandEventAPI.h */,
+				C61905991A6ACC1700F48764 /* UPBandEventAPI.m */,
+				C619059A1A6ACC1700F48764 /* UPBaseEventAPI.h */,
+				C619059B1A6ACC1700F48764 /* UPBaseEventAPI.m */,
+				C619059C1A6ACC1700F48764 /* UPBodyEventAPI.h */,
+				C619059D1A6ACC1700F48764 /* UPBodyEventAPI.m */,
+				C619059E1A6ACC1700F48764 /* UPCardiacEventAPI.h */,
+				C619059F1A6ACC1700F48764 /* UPCardiacEventAPI.m */,
+				C61905A01A6ACC1700F48764 /* UPDefines.h */,
+				C61905A11A6ACC1700F48764 /* UPGenericEventAPI.h */,
+				C61905A21A6ACC1700F48764 /* UPGenericEventAPI.m */,
+				C61905A31A6ACC1700F48764 /* UPMealAPI.h */,
+				C61905A41A6ACC1700F48764 /* UPMealAPI.m */,
+				C61905A51A6ACC1700F48764 /* UPMoodAPI.h */,
+				C61905A61A6ACC1700F48764 /* UPMoodAPI.m */,
+				C61905A71A6ACC1700F48764 /* UPMoveAPI.h */,
+				C61905A81A6ACC1700F48764 /* UPMoveAPI.m */,
+				C61905A91A6ACC1700F48764 /* UPPlatform.h */,
+				C61905AA1A6ACC1700F48764 /* UPPlatform.m */,
+				C61905AB1A6ACC1700F48764 /* UPPlatformSDK-Info.plist */,
+				C61905AC1A6ACC1700F48764 /* UPPlatformSDK-OS-X-Prefix.pch */,
+				C61905AD1A6ACC1700F48764 /* UPPlatformSDK-Prefix.pch */,
+				C61905AE1A6ACC1700F48764 /* UPPlatformSDK.h */,
+				C61905AF1A6ACC1700F48764 /* UPPlatformSDK.m */,
+				C61905B01A6ACC1700F48764 /* UPSession.h */,
+				C61905B11A6ACC1700F48764 /* UPSession.m */,
+				C61905B21A6ACC1700F48764 /* UPSleepAPI.h */,
+				C61905B31A6ACC1700F48764 /* UPSleepAPI.m */,
+				C61905B41A6ACC1700F48764 /* UPURLRequest.h */,
+				C61905B51A6ACC1700F48764 /* UPURLRequest.m */,
+				C61905B61A6ACC1700F48764 /* UPURLResponse.h */,
+				C61905B71A6ACC1700F48764 /* UPURLResponse.m */,
+				C61905B81A6ACC1700F48764 /* UPUserAPI.h */,
+				C61905B91A6ACC1700F48764 /* UPUserAPI.m */,
+				C61905BA1A6ACC1700F48764 /* UPWorkoutAPI.h */,
+				C61905BB1A6ACC1700F48764 /* UPWorkoutAPI.m */,
+			);
+			path = UPPlatformSDK;
+			sourceTree = "<group>";
+		};
+		C61905BD1A6ACC1700F48764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C61905D81A6ACC1700F48764 /* libUPPlatformSDK.a */,
+				C61905DA1A6ACC1700F48764 /* libUPPlatformSDK-OSX.a */,
+				C61905DC1A6ACC1700F48764 /* libUPPlatform.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61905ED1A6ADF0500F48764 /* LowerTabs */ = {
+			isa = PBXGroup;
+			children = (
+				C61905EE1A6ADF1100F48764 /* Body.swift */,
+				C61905F01A6ADF1A00F48764 /* Mind.swift */,
+				C61905F21A6ADF2100F48764 /* Lifestyle.swift */,
+			);
+			name = LowerTabs;
+			sourceTree = "<group>";
+		};
 		C62F4C461A69D569003E9FDB = {
 			isa = PBXGroup;
 			children = (
+				C619058F1A6ACC1700F48764 /* UPPlatformSDK */,
 				C62F4CAB1A69D737003E9FDB /* Frameworks */,
 				C62F4C511A69D569003E9FDB /* emoteful */,
 				C62F4C6A1A69D569003E9FDB /* emotefulTests */,
@@ -218,11 +399,11 @@
 		C62F4C511A69D569003E9FDB /* emoteful */ = {
 			isa = PBXGroup;
 			children = (
-				C68D702C1A6A18B80028EBF3 /* JawboneFunction.h */,
-				C68D702A1A6A17830028EBF3 /* JawboneFunction.m */,
-				C68D702D1A6A25D80028EBF3 /* HUViewController.h */,
-				C68D702E1A6A25D80028EBF3 /* HUViewController.m */,
+				C6A91E301A6AE7770020216F /* MovesGraph.m */,
+				C61905761A6ACB9800F48764 /* JBLandingViewController.h */,
+				C61905771A6ACB9800F48764 /* JBLandingViewController.m */,
 				C62F4CE01A69D895003E9FDB /* Main.storyboard */,
+				C61905ED1A6ADF0500F48764 /* LowerTabs */,
 				C62F4C5E1A69D569003E9FDB /* Images.xcassets */,
 				C62F4C541A69D569003E9FDB /* AppDelegate.swift */,
 				C62F4CDE1A69D889003E9FDB /* ViewController.swift */,
@@ -268,8 +449,11 @@
 		C62F4CAB1A69D737003E9FDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C61905E01A6ACDA500F48764 /* Foundation.framework */,
+				C61905DE1A6ACD9B00F48764 /* UIKit.framework */,
+				C61905741A6ACB4900F48764 /* libUPPlatformSDK.a */,
+				C61905551A6AC9B100F48764 /* WebKit.framework */,
 				C69B8DCE1A69F44F00370DC2 /* UPPlatformSDK.framework */,
-				C62F4D3B1A69DB9B003E9FDB /* UPPlatform.framework */,
 				C62F4D391A69D9AC003E9FDB /* SystemConfiguration.framework */,
 				C62F4D371A69D9A4003E9FDB /* StoreKit.framework */,
 				C62F4D351A69D99E003E9FDB /* Security.framework */,
@@ -375,6 +559,7 @@
 				TargetAttributes = {
 					C62F4C4E1A69D569003E9FDB = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = L6S6B3S2Z4;
 					};
 					C62F4C661A69D569003E9FDB = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -393,6 +578,12 @@
 			mainGroup = C62F4C461A69D569003E9FDB;
 			productRefGroup = C62F4C501A69D569003E9FDB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C61905BD1A6ACC1700F48764 /* Products */;
+					ProjectRef = C61905BC1A6ACC1700F48764 /* UPPlatformSDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C62F4C4E1A69D569003E9FDB /* emoteful */,
@@ -400,6 +591,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C61905D81A6ACC1700F48764 /* libUPPlatformSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUPPlatformSDK.a;
+			remoteRef = C61905D71A6ACC1700F48764 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C61905DA1A6ACC1700F48764 /* libUPPlatformSDK-OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUPPlatformSDK-OSX.a";
+			remoteRef = C61905D91A6ACC1700F48764 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C61905DC1A6ACC1700F48764 /* libUPPlatform.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUPPlatform.a;
+			remoteRef = C61905DB1A6ACC1700F48764 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C62F4C4D1A69D569003E9FDB /* Resources */ = {
@@ -421,6 +636,7 @@
 				C62F4C621A69D569003E9FDB /* LaunchScreen.xib in Resources */,
 				C62F4CFC1A69D8C0003E9FDB /* Meh.png in Resources */,
 				C62F4CF91A69D8C0003E9FDB /* Angry_Selected.png in Resources */,
+				C61905CB1A6ACC1700F48764 /* UPPlatformSDK-Info.plist in Resources */,
 				C62F4D161A69D8E7003E9FDB /* body_un.png in Resources */,
 				C62F4D0B1A69D8D6003E9FDB /* Background.png in Resources */,
 				C62F4D151A69D8E7003E9FDB /* body_selected.png in Resources */,
@@ -450,18 +666,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61905781A6ACB9800F48764 /* JBLandingViewController.m in Sources */,
 				C62F4CE81A69D89E003E9FDB /* ReasonViewController.swift in Sources */,
+				C61905CA1A6ACC1700F48764 /* UPPlatform.m in Sources */,
 				C62F4CE71A69D89E003E9FDB /* EmotionViewController.swift in Sources */,
 				C62F4CEA1A69D89E003E9FDB /* CustomNavigationSegue.swift in Sources */,
 				C69B8DD11A6A0ABE00370DC2 /* SettingsViewController.swift in Sources */,
 				C62F4CDD1A69D86E003E9FDB /* File.swift in Sources */,
+				C61905CE1A6ACC1700F48764 /* UPSleepAPI.m in Sources */,
+				C61905BF1A6ACC1700F48764 /* NSDate+UPPlatform.m in Sources */,
+				C61905D21A6ACC1700F48764 /* UPWorkoutAPI.m in Sources */,
+				C61905C31A6ACC1700F48764 /* UPBaseEventAPI.m in Sources */,
+				C61905C11A6ACC1700F48764 /* UPAuthViewController.m in Sources */,
 				C62F4CEB1A69D89E003E9FDB /* CustomTabBar.swift in Sources */,
+				C61905F11A6ADF1A00F48764 /* Mind.swift in Sources */,
+				C61905C91A6ACC1700F48764 /* UPMoveAPI.m in Sources */,
+				C61905D11A6ACC1700F48764 /* UPUserAPI.m in Sources */,
+				C61905CD1A6ACC1700F48764 /* UPSession.m in Sources */,
+				C61905C51A6ACC1700F48764 /* UPCardiacEventAPI.m in Sources */,
+				C61905C41A6ACC1700F48764 /* UPBodyEventAPI.m in Sources */,
+				C61905CC1A6ACC1700F48764 /* UPPlatformSDK.m in Sources */,
+				C61905D01A6ACC1700F48764 /* UPURLResponse.m in Sources */,
 				C62F4C581A69D569003E9FDB /* emoteful.xcdatamodeld in Sources */,
-				C68D702B1A6A17830028EBF3 /* JawboneFunction.m in Sources */,
+				C61905C81A6ACC1700F48764 /* UPMoodAPI.m in Sources */,
+				C61905C01A6ACC1700F48764 /* NSDictionary+UPPlatform.m in Sources */,
+				C61905C61A6ACC1700F48764 /* UPGenericEventAPI.m in Sources */,
+				C61905EF1A6ADF1100F48764 /* Body.swift in Sources */,
 				C62F4CDF1A69D889003E9FDB /* ViewController.swift in Sources */,
-				C68D702F1A6A25D80028EBF3 /* HUViewController.m in Sources */,
+				C6A91E311A6AE7770020216F /* MovesGraph.m in Sources */,
+				C61905F31A6ADF2100F48764 /* Lifestyle.swift in Sources */,
+				C61905C71A6ACC1700F48764 /* UPMealAPI.m in Sources */,
 				C62F4CE91A69D89E003E9FDB /* HomeViewController.swift in Sources */,
 				C62F4C551A69D569003E9FDB /* AppDelegate.swift in Sources */,
+				C61905CF1A6ACC1700F48764 /* UPURLRequest.m in Sources */,
+				C61905C21A6ACC1700F48764 /* UPBandEventAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +815,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/brendanmcmanus/Downloads/parse-library-1",
@@ -588,6 +827,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/APIExplorer-fjylwabfyqhrkodgdtwnpotksbln/Build/Products/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "emoteful-Bridging-Header.h";
@@ -600,6 +840,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/brendanmcmanus/Downloads/parse-library-1",
@@ -611,6 +852,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/APIExplorer-fjylwabfyqhrkodgdtwnpotksbln/Build/Products/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "emoteful-Bridging-Header.h";
