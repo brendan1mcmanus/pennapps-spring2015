@@ -523,10 +523,10 @@
             </objects>
             <point key="canvasLocation" x="1409" y="-989"/>
         </scene>
-        <!--Body-->
+        <!--Moves Graph-->
         <scene sceneID="nht-1j-FXk">
             <objects>
-                <viewController id="Lmg-s6-l46" customClass="Body" customModule="emoteful" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Lmg-s6-l46" customClass="MovesGraph" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Ai-c4-IVE"/>
                         <viewControllerLayoutGuide type="bottom" id="c1S-Ts-apt"/>

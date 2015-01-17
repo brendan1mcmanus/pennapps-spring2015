@@ -15,7 +15,7 @@ class Body: UIViewController {
         let m:MovesGraph = MovesGraph()
         m.createTheImage()
         
-        self.view.backgroundColor = UIColor(patternImage: m.im)
+        //self.view.backgroundColor = UIColor(patternImage: m.im)
     }
     
 }
