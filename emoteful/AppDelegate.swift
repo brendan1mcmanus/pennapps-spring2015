@@ -8,56 +8,94 @@
 
 import UIKit
 import CoreData
+import Foundation
+
+let kAPIExplorerID = "02Z1p-jM0AI" as NSString
+let kAPIExplorerSecret = "cb74fe51ba74ffc68343e33a067d1a542399d98f" as NSString
+var startingDate:NSDate = NSDate()
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
-
+    
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Parse.setApplicationId("7t5Z0pvASqcwVzmLgSw54uiKJXOa5qqofGwRaZj9",
+            clientKey: "vMk3Llr2o14W2egTiaPOrlsySjwtmwovquA5yonf")
+        
+        PFUser.enableAutomaticUser()
+        
+        var defaultACL = PFACL()
+        
+        defaultACL.setPublicReadAccess(true)
+        PFACL.setDefaultACL(defaultACL, withAccessForCurrentUser: true)
+        
+        
+        UPPlatform.sharedPlatform().startSessionWithClientID(kAPIExplorerID, clientSecret: kAPIExplorerSecret, authScope: UPPlatformAuthScope.All) { (session:UPSession!, error:NSError!) -> Void in
+            if (session != nil) {
+                
+            }
+        }
+        
+        
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+        
         return true
     }
-
+    
+    func testDateRangeCall() {
+    
+    NSLog("start: %@; end: %@", startingDate, NSDate());
+        UPMoveAPI.getMovesFromStartDate(startingDate, toEndDate: NSDate()) { (results:[AnyObject]!, response:UPURLResponse!, error:NSError!) -> Void in
+            NSLog("Any error: %@", error);
+            NSLog("This came back in 'Results': \n\n%@", results);
+        }
+    }
+    
+    
+    
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
-
+    
     func applicationDidEnterBackground(application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     }
-
+    
     func applicationWillEnterForeground(application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
     }
-
+    
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
-
+    
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
-
+    
     // MARK: - Core Data stack
-
+    
     lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "brendan.emoteful" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
         return urls[urls.count-1] as NSURL
-    }()
-
+        }()
+    
     lazy var managedObjectModel: NSManagedObjectModel = {
         // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
         let modelURL = NSBundle.mainBundle().URLForResource("emoteful", withExtension: "momd")!
         return NSManagedObjectModel(contentsOfURL: modelURL)!
-    }()
-
+        }()
+    
     lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator? = {
         // The persistent store coordinator for the application. This implementation creates and return a coordinator, having added the store for the application to it. This property is optional since there are legitimate error conditions that could cause the creation of the store to fail.
         // Create the coordinator and store
@@ -80,8 +118,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         return coordinator
-    }()
-
+        }()
+    
     lazy var managedObjectContext: NSManagedObjectContext? = {
         // Returns the managed object context for the application (which is already bound to the persistent store coordinator for the application.) This property is optional since there are legitimate error conditions that could cause the creation of the context to fail.
         let coordinator = self.persistentStoreCoordinator
@@ -91,10 +129,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var managedObjectContext = NSManagedObjectContext()
         managedObjectContext.persistentStoreCoordinator = coordinator
         return managedObjectContext
-    }()
-
+        }()
+    
     // MARK: - Core Data Saving support
-
+    
     func saveContext () {
         if let moc = self.managedObjectContext {
             var error: NSError? = nil
@@ -106,6 +144,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    
 }
 

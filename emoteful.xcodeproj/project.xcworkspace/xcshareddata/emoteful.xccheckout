@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D5C8FAE4-44B5-4B84-AF99-0CF9610B4A65</string>
+	<key>IDESourceControlProjectName</key>
+	<string>emoteful</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F59F1F0EC8ACE52C7C4E21FB402EC0AD1FB5223F</key>
+		<string>https://github.com/brndnmcmns/pennapps-spring2015.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>emoteful.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F59F1F0EC8ACE52C7C4E21FB402EC0AD1FB5223F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/brndnmcmns/pennapps-spring2015.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F59F1F0EC8ACE52C7C4E21FB402EC0AD1FB5223F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F59F1F0EC8ACE52C7C4E21FB402EC0AD1FB5223F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>emoteful</string>
+		</dict>
+	</array>
+</dict>
+</plist>
