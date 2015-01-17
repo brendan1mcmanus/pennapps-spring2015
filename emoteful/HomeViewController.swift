@@ -22,6 +22,13 @@ class HomeViewController : UIViewController {
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.translucent = true
         
+        var u: UPUser
+        var url: UPURLResponse
+        UPUserAPI.getCurrentUserWithCompletion {(u, url, error:NSError!) -> Void in
+            var message:String = u.firstName
+            
+            self.WelcomeLabel.text = "Hello, " + message + "!"
+        }
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 38, height: 38))
         imageView.contentMode = .ScaleAspectFit
         let image = UIImage(named: "emoteful-header-logo.png")

@@ -445,7 +445,7 @@
                         <viewControllerLayoutGuide type="bottom" id="F8d-fT-j60"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="z0r-bA-0G8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="171"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="187"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9t-Ez-xuW">
@@ -655,6 +655,6 @@
         <image name="mind_un.png" width="213" height="98"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Sfa-5H-uq8"/>
+        <segue reference="AZP-1C-HAr"/>
     </inferredMetricsTieBreakers>
 </document>

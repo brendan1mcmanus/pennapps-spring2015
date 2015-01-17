@@ -59,31 +59,126 @@ class EmotionViewController: UIViewController {
     
     @IBAction func HappyPressed(sender: UIButton) {
         sender.selected = !sender.selected
+        if (AngryButton.selected) {
+            AngryButton.selected = false
+        }
+        if (SadButton.selected) {
+            SadButton.selected = false
+        }
+        if (StressedButton.selected) {
+            StressedButton.selected = false
+        }
+        if (WorriedButton.selected) {
+            WorriedButton.selected = false
+        }
+        if (MehButton.selected) {
+            MehButton.selected = false
+        }
         happy = !happy
     }
     
     @IBAction func SadPressed(sender: UIButton) {
         sender.selected = !sender.selected
+        if (AngryButton.selected) {
+            AngryButton.selected = false
+        }
+        if (HappyButton.selected) {
+            HappyButton.selected = false
+        }
+        if (StressedButton.selected) {
+            StressedButton.selected = false
+        }
+        if (WorriedButton.selected) {
+            WorriedButton.selected = false
+        }
+        if (MehButton.selected) {
+            MehButton.selected = false
+        }
+
         sad = !sad
     }
     
     @IBAction func StressedPressed(sender: UIButton) {
         sender.selected = !sender.selected
+        if (AngryButton.selected) {
+            AngryButton.selected = false
+        }
+        if (SadButton.selected) {
+            SadButton.selected = false
+        }
+        if (HappyButton.selected) {
+            HappyButton.selected = false
+        }
+        if (WorriedButton.selected) {
+            WorriedButton.selected = false
+        }
+        if (MehButton.selected) {
+            MehButton.selected = false
+        }
+
         stressed = !stressed
     }
     
     @IBAction func WorriedPressed(sender: UIButton) {
         sender.selected = !sender.selected
+        if (AngryButton.selected) {
+            AngryButton.selected = false
+        }
+        if (SadButton.selected) {
+            SadButton.selected = false
+        }
+        if (StressedButton.selected) {
+            StressedButton.selected = false
+        }
+        if (HappyButton.selected) {
+            HappyButton.selected = false
+        }
+        if (MehButton.selected) {
+            MehButton.selected = false
+        }
+
         worried = !worried
     }
     
     @IBAction func MehPressed(sender: UIButton) {
         sender.selected = !sender.selected
+        if (AngryButton.selected) {
+            AngryButton.selected = false
+        }
+        if (SadButton.selected) {
+            SadButton.selected = false
+        }
+        if (StressedButton.selected) {
+            StressedButton.selected = false
+        }
+        if (WorriedButton.selected) {
+            WorriedButton.selected = false
+        }
+        if (HappyButton.selected) {
+            HappyButton.selected = false
+        }
+
         meh = !meh
     }
     
     @IBAction func AngryPressed(sender: UIButton) {
         sender.selected = !sender.selected
+        if (HappyButton.selected) {
+            HappyButton.selected = false
+        }
+        if (SadButton.selected) {
+            SadButton.selected = false
+        }
+        if (StressedButton.selected) {
+            StressedButton.selected = false
+        }
+        if (WorriedButton.selected) {
+            WorriedButton.selected = false
+        }
+        if (MehButton.selected) {
+            MehButton.selected = false
+        }
+
         angry = !angry
     }
     
