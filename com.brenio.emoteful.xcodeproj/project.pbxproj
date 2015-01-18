@@ -130,7 +130,7 @@
 		C62F4D381A69D9A4003E9FDB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F4D371A69D9A4003E9FDB /* StoreKit.framework */; };
 		C62F4D3A1A69D9AC003E9FDB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F4D391A69D9AC003E9FDB /* SystemConfiguration.framework */; };
 		C69B8DD11A6A0ABE00370DC2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B8DD01A6A0ABE00370DC2 /* SettingsViewController.swift */; };
-		C6A91E311A6AE7770020216F /* MovesGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A91E301A6AE7770020216F /* MovesGraph.m */; };
+		C6A91E311A6AE7770020216F /* SleepGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A91E301A6AE7770020216F /* SleepGraph.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -291,7 +291,7 @@
 		C62F4CD01A69D79A003E9FDB /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
 		C62F4CD11A69D79A003E9FDB /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		C62F4CD21A69D79A003E9FDB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		C62F4CD91A69D80E003E9FDB /* emoteful-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "emoteful-Bridging-Header.h"; sourceTree = "<group>"; };
+		C62F4CD91A69D80E003E9FDB /* emoteful-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "emoteful-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		C62F4CDC1A69D86E003E9FDB /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		C62F4CDE1A69D889003E9FDB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C62F4CE01A69D895003E9FDB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -318,7 +318,7 @@
 		C62F4D391A69D9AC003E9FDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C69B8DCE1A69F44F00370DC2 /* UPPlatformSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UPPlatformSDK.framework; sourceTree = "<group>"; };
 		C69B8DD01A6A0ABE00370DC2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		C6A91E301A6AE7770020216F /* MovesGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovesGraph.m; path = ../MovesGraph.m; sourceTree = "<group>"; };
+		C6A91E301A6AE7770020216F /* SleepGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SleepGraph.m; path = ../SleepGraph.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -537,7 +537,7 @@
 		C62F4C511A69D569003E9FDB /* emoteful */ = {
 			isa = PBXGroup;
 			children = (
-				C6A91E301A6AE7770020216F /* MovesGraph.m */,
+				C6A91E301A6AE7770020216F /* SleepGraph.m */,
 				C62433CD1A6B4636004431ED /* MovementGraph.m */,
 				C61905761A6ACB9800F48764 /* JBLandingViewController.h */,
 				C61905771A6ACB9800F48764 /* JBLandingViewController.m */,
@@ -681,7 +681,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C62F4C4A1A69D569003E9FDB /* Build configuration list for PBXProject "emoteful" */;
+			buildConfigurationList = C62F4C4A1A69D569003E9FDB /* Build configuration list for PBXProject "com.brenio.emoteful" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -842,7 +842,7 @@
 				C61905C61A6ACC1700F48764 /* UPGenericEventAPI.m in Sources */,
 				C61905EF1A6ADF1100F48764 /* Body.swift in Sources */,
 				C62F4CDF1A69D889003E9FDB /* ViewController.swift in Sources */,
-				C6A91E311A6AE7770020216F /* MovesGraph.m in Sources */,
+				C6A91E311A6AE7770020216F /* SleepGraph.m in Sources */,
 				C61905F31A6ADF2100F48764 /* Lifestyle.swift in Sources */,
 				C61905C71A6ACC1700F48764 /* UPMealAPI.m in Sources */,
 				C62F4CE91A69D89E003E9FDB /* HomeViewController.swift in Sources */,
@@ -965,6 +965,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/brendanmcmanus/Downloads/parse-library-1",
@@ -979,6 +980,7 @@
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/APIExplorer-fjylwabfyqhrkodgdtwnpotksbln/Build/Products/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "emoteful-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -990,6 +992,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/brendanmcmanus/Downloads/parse-library-1",
@@ -1004,6 +1007,7 @@
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/APIExplorer-fjylwabfyqhrkodgdtwnpotksbln/Build/Products/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "emoteful-Bridging-Header.h";
 			};
 			name = Release;
@@ -1045,7 +1049,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C62F4C4A1A69D569003E9FDB /* Build configuration list for PBXProject "emoteful" */ = {
+		C62F4C4A1A69D569003E9FDB /* Build configuration list for PBXProject "com.brenio.emoteful" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C62F4C6F1A69D569003E9FDB /* Debug */,

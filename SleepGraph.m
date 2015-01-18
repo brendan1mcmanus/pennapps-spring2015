@@ -11,7 +11,7 @@
 #import "UP.h"
 
 
-@interface MovesGraph : UIViewController
+@interface SleepGraph : UIViewController
 @property (nonatomic, strong) UIImage *im;
 @property (weak, nonatomic) IBOutlet UILabel *sleepLabel;
 @property (weak, nonatomic) IBOutlet UILabel *suggestionLabel;
@@ -22,7 +22,7 @@
 @end
 
 
-@implementation MovesGraph
+@implementation SleepGraph
 
 - (void)viewDidAppear:(BOOL)animated {
     CGSize size = [[UIScreen mainScreen] bounds].size;

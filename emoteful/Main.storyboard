@@ -23,7 +23,7 @@
                     <navigationItem key="navigationItem" id="PuC-2N-0Dx"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <segue destination="Nt4-LG-fc4" kind="presentation" identifier="login" id="Sfa-5H-uq8"/>
+                        <segue destination="Nt4-LG-fc4" kind="presentation" identifier="login" animates="NO" id="Sfa-5H-uq8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -456,7 +456,7 @@
                         <viewControllerLayoutGuide type="bottom" id="F8d-fT-j60"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="z0r-bA-0G8">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="276"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="244"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9t-Ez-xuW">
@@ -588,10 +588,10 @@
             </objects>
             <point key="canvasLocation" x="1369" y="-1068"/>
         </scene>
-        <!--Moves Graph-->
+        <!--Sleep Graph-->
         <scene sceneID="nht-1j-FXk">
             <objects>
-                <viewController id="Lmg-s6-l46" customClass="MovesGraph" sceneMemberID="viewController">
+                <viewController id="Lmg-s6-l46" customClass="SleepGraph" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Ai-c4-IVE"/>
                         <viewControllerLayoutGuide type="bottom" id="c1S-Ts-apt"/>
@@ -760,6 +760,6 @@
         <image name="moves_u.png" width="213" height="98"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="AZP-1C-HAr"/>
+        <segue reference="Sfa-5H-uq8"/>
     </inferredMetricsTieBreakers>
 </document>

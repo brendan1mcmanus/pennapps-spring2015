@@ -12,8 +12,6 @@ import UIKit
 
 class Body: UIViewController {
     override func viewDidAppear(animated: Bool) {
-        let m:MovesGraph = MovesGraph()
-        m.createTheImage()
         
         //self.view.backgroundColor = UIColor(patternImage: m.im)
     }

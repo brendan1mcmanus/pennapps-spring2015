@@ -17,7 +17,7 @@
                BlueprintIdentifier = "C62F4C4E1A69D569003E9FDB"
                BuildableName = "emoteful.app"
                BlueprintName = "emoteful"
-               ReferencedContainer = "container:emoteful.xcodeproj">
+               ReferencedContainer = "container:com.brenio.emoteful.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "C62F4C661A69D569003E9FDB"
                BuildableName = "emotefulTests.xctest"
                BlueprintName = "emotefulTests"
-               ReferencedContainer = "container:emoteful.xcodeproj">
+               ReferencedContainer = "container:com.brenio.emoteful.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "C62F4C661A69D569003E9FDB"
                BuildableName = "emotefulTests.xctest"
                BlueprintName = "emotefulTests"
-               ReferencedContainer = "container:emoteful.xcodeproj">
+               ReferencedContainer = "container:com.brenio.emoteful.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -59,7 +59,7 @@
             BlueprintIdentifier = "C62F4C4E1A69D569003E9FDB"
             BuildableName = "emoteful.app"
             BlueprintName = "emoteful"
-            ReferencedContainer = "container:emoteful.xcodeproj">
+            ReferencedContainer = "container:com.brenio.emoteful.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "C62F4C4E1A69D569003E9FDB"
             BuildableName = "emoteful.app"
             BlueprintName = "emoteful"
-            ReferencedContainer = "container:emoteful.xcodeproj">
+            ReferencedContainer = "container:com.brenio.emoteful.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,7 +96,7 @@
             BlueprintIdentifier = "C62F4C4E1A69D569003E9FDB"
             BuildableName = "emoteful.app"
             BlueprintName = "emoteful"
-            ReferencedContainer = "container:emoteful.xcodeproj">
+            ReferencedContainer = "container:com.brenio.emoteful.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
