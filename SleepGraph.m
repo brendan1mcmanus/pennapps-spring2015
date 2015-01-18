@@ -17,7 +17,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *suggestionLabel;
 
 @property bool hasImage;
--(void) createTheImage;
 
 @end
 
@@ -51,7 +50,7 @@
                     imageView.frame = CGRectMake(0, 0, 480, 150);
                     [scrollView addSubview:imageView];
                     self.hasImage = true;
-
+                    
                 }];
             }
             UPSleep *s = results[0];
