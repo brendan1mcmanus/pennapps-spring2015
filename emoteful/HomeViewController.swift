@@ -25,7 +25,7 @@ class HomeViewController : UIViewController {
         var u: UPUser
         var url: UPURLResponse
         UPUserAPI.getCurrentUserWithCompletion {(u, url, error:NSError!) -> Void in
-            var message:String = u.firstName
+            var message:String = u.firstName + " " + u.lastName
             
             self.WelcomeLabel.text = "Hello, " + message + "!"
         }
