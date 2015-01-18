@@ -36,6 +36,13 @@
 		C61905EF1A6ADF1100F48764 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61905EE1A6ADF1100F48764 /* Body.swift */; };
 		C61905F11A6ADF1A00F48764 /* Mind.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61905F01A6ADF1A00F48764 /* Mind.swift */; };
 		C61905F31A6ADF2100F48764 /* Lifestyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61905F21A6ADF2100F48764 /* Lifestyle.swift */; };
+		C62433C71A6B3BCF004431ED /* moves_u.png in Resources */ = {isa = PBXBuildFile; fileRef = C62433C11A6B3BCF004431ED /* moves_u.png */; };
+		C62433C81A6B3BCF004431ED /* moves.png in Resources */ = {isa = PBXBuildFile; fileRef = C62433C21A6B3BCF004431ED /* moves.png */; };
+		C62433C91A6B3BCF004431ED /* emotes_u.png in Resources */ = {isa = PBXBuildFile; fileRef = C62433C31A6B3BCF004431ED /* emotes_u.png */; };
+		C62433CA1A6B3BCF004431ED /* emotes.png in Resources */ = {isa = PBXBuildFile; fileRef = C62433C41A6B3BCF004431ED /* emotes.png */; };
+		C62433CB1A6B3BCF004431ED /* lifestyle_u.png in Resources */ = {isa = PBXBuildFile; fileRef = C62433C51A6B3BCF004431ED /* lifestyle_u.png */; };
+		C62433CC1A6B3BCF004431ED /* lifestyle.png in Resources */ = {isa = PBXBuildFile; fileRef = C62433C61A6B3BCF004431ED /* lifestyle.png */; };
+		C62433CE1A6B4636004431ED /* MovementGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = C62433CD1A6B4636004431ED /* MovementGraph.m */; };
 		C62F4C551A69D569003E9FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F4C541A69D569003E9FDB /* AppDelegate.swift */; };
 		C62F4C581A69D569003E9FDB /* emoteful.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C62F4C561A69D569003E9FDB /* emoteful.xcdatamodeld */; };
 		C62F4C5F1A69D569003E9FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62F4C5E1A69D569003E9FDB /* Images.xcassets */; };
@@ -71,12 +78,6 @@
 		C62F4D0C1A69D8D6003E9FDB /* Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F4D071A69D8D6003E9FDB /* Circle.png */; };
 		C62F4D0D1A69D8D6003E9FDB /* Circle_white.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F4D081A69D8D6003E9FDB /* Circle_white.png */; };
 		C62F4D0E1A69D8D6003E9FDB /* emoteful.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F4D091A69D8D6003E9FDB /* emoteful.png */; };
-		C62F4D151A69D8E7003E9FDB /* body_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F4D0F1A69D8E7003E9FDB /* body_selected.png */; };
-		C62F4D161A69D8E7003E9FDB /* body_un.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F4D101A69D8E7003E9FDB /* body_un.png */; };
-		C62F4D171A69D8E7003E9FDB /* lifestyle_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F4D111A69D8E7003E9FDB /* lifestyle_selected.png */; };
-		C62F4D181A69D8E7003E9FDB /* lifestyle_un.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F4D121A69D8E7003E9FDB /* lifestyle_un.png */; };
-		C62F4D191A69D8E7003E9FDB /* mind_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F4D131A69D8E7003E9FDB /* mind_selected.png */; };
-		C62F4D1A1A69D8E7003E9FDB /* mind_un.png in Resources */ = {isa = PBXBuildFile; fileRef = C62F4D141A69D8E7003E9FDB /* mind_un.png */; };
 		C62F4D1C1A69D933003E9FDB /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F4D1B1A69D933003E9FDB /* Accounts.framework */; };
 		C62F4D1E1A69D938003E9FDB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F4D1D1A69D938003E9FDB /* Social.framework */; };
 		C62F4D201A69D941003E9FDB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F4D1F1A69D941003E9FDB /* CoreImage.framework */; };
@@ -195,6 +196,13 @@
 		C61905EE1A6ADF1100F48764 /* Body.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
 		C61905F01A6ADF1A00F48764 /* Mind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mind.swift; sourceTree = "<group>"; };
 		C61905F21A6ADF2100F48764 /* Lifestyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lifestyle.swift; sourceTree = "<group>"; };
+		C62433C11A6B3BCF004431ED /* moves_u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moves_u.png; sourceTree = "<group>"; };
+		C62433C21A6B3BCF004431ED /* moves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moves.png; sourceTree = "<group>"; };
+		C62433C31A6B3BCF004431ED /* emotes_u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emotes_u.png; sourceTree = "<group>"; };
+		C62433C41A6B3BCF004431ED /* emotes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emotes.png; sourceTree = "<group>"; };
+		C62433C51A6B3BCF004431ED /* lifestyle_u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifestyle_u.png; sourceTree = "<group>"; };
+		C62433C61A6B3BCF004431ED /* lifestyle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifestyle.png; sourceTree = "<group>"; };
+		C62433CD1A6B4636004431ED /* MovementGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovementGraph.m; sourceTree = "<group>"; };
 		C62F4C4F1A69D569003E9FDB /* emoteful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emoteful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62F4C531A69D569003E9FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C62F4C541A69D569003E9FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -235,12 +243,6 @@
 		C62F4D071A69D8D6003E9FDB /* Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle.png; sourceTree = "<group>"; };
 		C62F4D081A69D8D6003E9FDB /* Circle_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle_white.png; sourceTree = "<group>"; };
 		C62F4D091A69D8D6003E9FDB /* emoteful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoteful.png; sourceTree = "<group>"; };
-		C62F4D0F1A69D8E7003E9FDB /* body_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body_selected.png; sourceTree = "<group>"; };
-		C62F4D101A69D8E7003E9FDB /* body_un.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body_un.png; sourceTree = "<group>"; };
-		C62F4D111A69D8E7003E9FDB /* lifestyle_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifestyle_selected.png; sourceTree = "<group>"; };
-		C62F4D121A69D8E7003E9FDB /* lifestyle_un.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifestyle_un.png; sourceTree = "<group>"; };
-		C62F4D131A69D8E7003E9FDB /* mind_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mind_selected.png; sourceTree = "<group>"; };
-		C62F4D141A69D8E7003E9FDB /* mind_un.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mind_un.png; sourceTree = "<group>"; };
 		C62F4D1B1A69D933003E9FDB /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		C62F4D1D1A69D938003E9FDB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		C62F4D1F1A69D941003E9FDB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -424,6 +426,7 @@
 			isa = PBXGroup;
 			children = (
 				C6A91E301A6AE7770020216F /* MovesGraph.m */,
+				C62433CD1A6B4636004431ED /* MovementGraph.m */,
 				C61905761A6ACB9800F48764 /* JBLandingViewController.h */,
 				C61905771A6ACB9800F48764 /* JBLandingViewController.m */,
 				C62F4CE01A69D895003E9FDB /* Main.storyboard */,
@@ -506,6 +509,12 @@
 		C62F4D041A69D8C4003E9FDB /* Emotion Images */ = {
 			isa = PBXGroup;
 			children = (
+				C62433C11A6B3BCF004431ED /* moves_u.png */,
+				C62433C21A6B3BCF004431ED /* moves.png */,
+				C62433C31A6B3BCF004431ED /* emotes_u.png */,
+				C62433C41A6B3BCF004431ED /* emotes.png */,
+				C62433C51A6B3BCF004431ED /* lifestyle_u.png */,
+				C62433C61A6B3BCF004431ED /* lifestyle.png */,
 				C6A91E401A6B2F780020216F /* Exercise_s.png */,
 				C6A91E411A6B2F780020216F /* Friends_s.png */,
 				C6A91E421A6B2F780020216F /* Homework_s.png */,
@@ -536,12 +545,6 @@
 				C62F4CF51A69D8C0003E9FDB /* Stressed_Selected.png */,
 				C62F4CF61A69D8C0003E9FDB /* Worried.png */,
 				C62F4CF71A69D8C0003E9FDB /* Worried_Selected.png */,
-				C62F4D0F1A69D8E7003E9FDB /* body_selected.png */,
-				C62F4D101A69D8E7003E9FDB /* body_un.png */,
-				C62F4D111A69D8E7003E9FDB /* lifestyle_selected.png */,
-				C62F4D121A69D8E7003E9FDB /* lifestyle_un.png */,
-				C62F4D131A69D8E7003E9FDB /* mind_selected.png */,
-				C62F4D141A69D8E7003E9FDB /* mind_un.png */,
 			);
 			name = "Emotion Images";
 			sourceTree = "<group>";
@@ -659,32 +662,32 @@
 			files = (
 				C6A91E481A6B2F780020216F /* Homework_s.png in Resources */,
 				C62F4D0A1A69D8D6003E9FDB /* emoteful-header-logo.png in Resources */,
+				C62433C81A6B3BCF004431ED /* moves.png in Resources */,
 				C6A91E471A6B2F780020216F /* Friends_s.png in Resources */,
+				C62433CA1A6B3BCF004431ED /* emotes.png in Resources */,
 				C62F4D0C1A69D8D6003E9FDB /* Circle.png in Resources */,
 				C62F4CFE1A69D8C0003E9FDB /* Sad.png in Resources */,
-				C62F4D171A69D8E7003E9FDB /* lifestyle_selected.png in Resources */,
 				C62F4CFA1A69D8C0003E9FDB /* Happy.png in Resources */,
 				C62F4CE11A69D895003E9FDB /* Main.storyboard in Resources */,
-				C62F4D1A1A69D8E7003E9FDB /* mind_un.png in Resources */,
 				C62F4CF81A69D8C0003E9FDB /* Angry.png in Resources */,
+				C62433C91A6B3BCF004431ED /* emotes_u.png in Resources */,
 				C6A91E4B1A6B2F780020216F /* Weather_s.png in Resources */,
 				C6A91E4A1A6B2F780020216F /* Work_s.png in Resources */,
 				C62F4D0D1A69D8D6003E9FDB /* Circle_white.png in Resources */,
-				C62F4D191A69D8E7003E9FDB /* mind_selected.png in Resources */,
 				C6A91E3E1A6B2D660020216F /* Weather.png in Resources */,
 				C62F4D001A69D8C0003E9FDB /* Stressed.png in Resources */,
 				C6A91E3D1A6B2D660020216F /* Homework.png in Resources */,
 				C62F4D0E1A69D8D6003E9FDB /* emoteful.png in Resources */,
 				C62F4C621A69D569003E9FDB /* LaunchScreen.xib in Resources */,
+				C62433C71A6B3BCF004431ED /* moves_u.png in Resources */,
 				C6A91E461A6B2F780020216F /* Exercise_s.png in Resources */,
 				C6A91E3A1A6B2D660020216F /* Relationships.png in Resources */,
 				C62F4CFC1A69D8C0003E9FDB /* Meh.png in Resources */,
 				C62F4CF91A69D8C0003E9FDB /* Angry_Selected.png in Resources */,
 				C6A91E491A6B2F780020216F /* Relationships_s.png in Resources */,
+				C62433CC1A6B3BCF004431ED /* lifestyle.png in Resources */,
 				C61905CB1A6ACC1700F48764 /* UPPlatformSDK-Info.plist in Resources */,
-				C62F4D161A69D8E7003E9FDB /* body_un.png in Resources */,
 				C62F4D0B1A69D8D6003E9FDB /* Background.png in Resources */,
-				C62F4D151A69D8E7003E9FDB /* body_selected.png in Resources */,
 				C62F4D011A69D8C0003E9FDB /* Stressed_Selected.png in Resources */,
 				C6A91E3C1A6B2D660020216F /* Friends.png in Resources */,
 				C6A91E3B1A6B2D660020216F /* Exercise.png in Resources */,
@@ -695,7 +698,7 @@
 				C62F4CFF1A69D8C0003E9FDB /* Sad_Selected.png in Resources */,
 				C62F4CFB1A69D8C0003E9FDB /* Happy_Selected.png in Resources */,
 				C68D70241A6A0C1F0028EBF3 /* backbutton.png in Resources */,
-				C62F4D181A69D8E7003E9FDB /* lifestyle_un.png in Resources */,
+				C62433CB1A6B3BCF004431ED /* lifestyle_u.png in Resources */,
 				C62F4CFD1A69D8C0003E9FDB /* Meh_Selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,6 +733,7 @@
 				C61905F11A6ADF1A00F48764 /* Mind.swift in Sources */,
 				C61905C91A6ACC1700F48764 /* UPMoveAPI.m in Sources */,
 				C61905D11A6ACC1700F48764 /* UPUserAPI.m in Sources */,
+				C62433CE1A6B4636004431ED /* MovementGraph.m in Sources */,
 				C61905CD1A6ACC1700F48764 /* UPSession.m in Sources */,
 				C61905C51A6ACC1700F48764 /* UPCardiacEventAPI.m in Sources */,
 				C61905C41A6ACC1700F48764 /* UPBodyEventAPI.m in Sources */,

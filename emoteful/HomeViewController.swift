@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  learning-swift
 //
-//  Created by Brendan McManus on 12/26/14.
+//  Created by Brendan McManus on 1/16/14.
 //  Copyright (c) 2014 Brendan McManus. All rights reserved.
 //
 

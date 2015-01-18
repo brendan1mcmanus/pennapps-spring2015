@@ -13,6 +13,10 @@
 
 @interface MovesGraph : UIViewController
 @property (nonatomic, strong) UIImage *im;
+@property (weak, nonatomic) IBOutlet UILabel *sleepLabel;
+@property (weak, nonatomic) IBOutlet UILabel *suggestionLabel;
+
+@property bool hasImage;
 -(void) createTheImage;
 
 @end
@@ -26,7 +30,7 @@
     CGFloat frameY = size.height-30; //padding for UIpageControl
     
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0,self.view.frame.size.width, self.view.frame.size.height)];
-
+    
     scrollView.pagingEnabled = YES;
     
     scrollView.backgroundColor = [UIColor clearColor];
@@ -34,22 +38,40 @@
     
     
     [self.view addSubview: scrollView];
-    scrollView.scrollEnabled = YES;
+    scrollView.scrollEnabled = NO;
+    self.hasImage = false;
     
-    
-    [UPMoveAPI getMovesWithLimit:1 completion:^(NSArray *results, UPURLResponse *response, NSError *error) {
-        if (results.count > 0)
-        {
-            UPMove *move = results[0];
+    if (self.hasImage == false) {
+        [UPSleepAPI getSleepsWithLimit:1 completion:^(NSArray *results, UPURLResponse *response, NSError *error) {
+            if (results.count > 0)
+            {
+                UPSleep *sleep = results[0];
+                [UPSleepAPI getSleepGraphImage:sleep completion:^(UIImage *image) {
+                    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+                    imageView.frame = CGRectMake(0, 0, 480, 150);
+                    [scrollView addSubview:imageView];
+                    self.hasImage = true;
+
+                }];
+            }
+            UPSleep *s = results[0];
+            NSNumber *timeAsleep = s.totalTime;
+            double f = [timeAsleep doubleValue] / 3600;
+            NSString *label = [NSString stringWithFormat:@"You slept for %.02f hours last night.", f];
             
-            [UPMoveAPI getMoveGraphImage:move completion:^(UIImage *image) {
-                UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
-                imageView.frame = CGRectMake(0, 0, 480, 120);
-                //[imageView setContentMode:UIViewContentModeScaleAspectFill];
-                [scrollView addSubview:imageView];
-            }];
-        }
-    }];
+            self.sleepLabel.text = label;
+            
+            if (f > 6.5 && f < 8) {
+                self.suggestionLabel.text = @"Nice job!";
+            } else if (f < 6.5 && f > 4) {
+                self.suggestionLabel.text = @"Not the worst, but I know you can do better!";
+            } else if (f > 8) {
+                self.suggestionLabel.text = [NSString stringWithFormat:@"WOW! %C", 0xe04f];
+            } else if (f < 4) {
+                self.suggestionLabel.text = @"You really need to sleep more!";
+            }
+        }];
+    }
     
 }
 
@@ -60,7 +82,5 @@
         }
     }];
 }
-
-
 
 @end
