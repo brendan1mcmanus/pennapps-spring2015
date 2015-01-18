@@ -51,6 +51,9 @@ class ReasonViewController : UIViewController {
         questionEmote.text = "What might be making you feel " + emotion + "?"
         
     }
+    @IBAction func finishedReasons(sender: UIButton) {
+        putInParseDatabase()
+    }
     
     @IBAction func exercisePressed(sender: UIButton) {
         sender.selected = !sender.selected
@@ -88,17 +91,33 @@ class ReasonViewController : UIViewController {
     
     
     private func putInParseDatabase() {
-        var emotionsObject = PFObject(className: "database")
-        reason.append(homework)
-        reason.append(work)
-        reason.append(relationship)
-        reason.append(friends)
-        reason.append(weather)
-        reason.append(exercise)
-        emotionsObject["curremotion"] = emotion
-        emotionsObject["reasons"] = reason
-        emotionsObject.saveInBackground()
+        var query = PFQuery(className:"database")
+        query.getObjectInBackgroundWithId("V65tMqnwrD") {
+            (database: PFObject!, error: NSError!) -> Void in
+            if error != nil {
+                NSLog("%@", error)
+            } else {
+                if (self.emotion == "happy") {
+                    var i:Int = database["happyCount"] as Int
+                    database["happyCount"] = i + 1
+                } else if (self.emotion == "sad") {
+                    var i:Int = database["sadCount"] as Int
+                    database["sadCount"] = i + 1
+                } else if (self.emotion == "worried") {
+                    var i:Int = database["worriedCount"] as Int
+                    database["worriedCount"] = i + 1
+                } else if (self.emotion == "stressed") {
+                    var i:Int = database["stressedCount"] as Int
+                    database["stressedCount"] = i + 1
+                } else if (self.emotion == "angry") {
+                    var i:Int = database["angryCount"] as Int
+                    database["angryCount"] = i + 1
+                } else if (self.emotion == "meh") {
+                    var i:Int = database["mehCount"] as Int
+                    database["mehCount"] = i + 1
+                }
+                database.saveInBackground()
+            }
+        }
     }
-    
-    
 }

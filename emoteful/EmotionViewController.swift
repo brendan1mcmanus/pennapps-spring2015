@@ -198,7 +198,7 @@ class EmotionViewController: UIViewController {
 
         meh = !meh
         if (meh == true) {
-            current = "true"
+            current = "meh"
         }
     }
     

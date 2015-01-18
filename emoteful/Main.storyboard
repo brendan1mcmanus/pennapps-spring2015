@@ -306,6 +306,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="finishedReasons:" destination="jsM-g5-qYZ" eventType="touchUpInside" id="5On-kJ-Fhk"/>
                                     <segue destination="Nt4-LG-fc4" kind="presentation" modalTransitionStyle="crossDissolve" id="KnZ-R4-0Ea"/>
                                 </connections>
                             </button>
@@ -456,7 +457,7 @@
                         <viewControllerLayoutGuide type="bottom" id="F8d-fT-j60"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="z0r-bA-0G8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="244"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="276"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9t-Ez-xuW">
@@ -760,6 +761,6 @@
         <image name="moves_u.png" width="213" height="98"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Sfa-5H-uq8"/>
+        <segue reference="KnZ-R4-0Ea"/>
     </inferredMetricsTieBreakers>
 </document>
