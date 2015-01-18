@@ -2,8 +2,8 @@
 //  CustomNavigationSegue.swift
 //  learning-swift
 //
-//  Created by Brendan McManus on 12/27/14.
-//  Copyright (c) 2014 Brendan McManus. All rights reserved.
+//  Created by Brendan McManus on 1/16/15.
+//  Copyright (c) 2015 Brendan McManus. All rights reserved.
 //
 
 import UIKit

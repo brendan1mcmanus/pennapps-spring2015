@@ -2,8 +2,8 @@
 //  EmotionViewController.swift
 //  learning-swift
 //
-//  Created by Brendan McManus on 12/27/14.
-//  Copyright (c) 2014 Brendan McManus. All rights reserved.
+//  Created by Brendan McManus on 1/16/15.
+//  Copyright (c) 2015 Brendan McManus. All rights reserved.
 //
 
 import UIKit
@@ -26,6 +26,7 @@ class EmotionViewController: UIViewController {
     var stressed = false
     var meh = false
     var angry = false
+    var current = String()
     
     
     var emotionDictionary = [String:Bool]()
@@ -80,6 +81,9 @@ class EmotionViewController: UIViewController {
             meh = false
         }
         happy = !happy
+        if (happy == true) {
+            current = "happy"
+        }
     }
     
     @IBAction func SadPressed(sender: UIButton) {
@@ -106,6 +110,9 @@ class EmotionViewController: UIViewController {
         }
 
         sad = !sad
+        if (sad == true) {
+            current = "sad"
+        }
     }
     
     @IBAction func StressedPressed(sender: UIButton) {
@@ -132,6 +139,9 @@ class EmotionViewController: UIViewController {
         }
 
         stressed = !stressed
+        if (stressed == true) {
+            current = "stressed"
+        }
     }
     
     @IBAction func WorriedPressed(sender: UIButton) {
@@ -158,6 +168,9 @@ class EmotionViewController: UIViewController {
         }
 
         worried = !worried
+        if (worried == true) {
+            current = "worried"
+        }
     }
     
     @IBAction func MehPressed(sender: UIButton) {
@@ -184,6 +197,9 @@ class EmotionViewController: UIViewController {
         }
 
         meh = !meh
+        if (meh == true) {
+            current = "true"
+        }
     }
     
     @IBAction func AngryPressed(sender: UIButton) {
@@ -210,17 +226,13 @@ class EmotionViewController: UIViewController {
         }
 
         angry = !angry
+        if (angry == true) {
+            current = "angry"
+        }
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "finishedSelecting" {
-            
-            emotionDictionary.updateValue(happy, forKey: "happy")
-            emotionDictionary.updateValue(sad, forKey: "sad")
-            emotionDictionary.updateValue(angry, forKey: "angry")
-            emotionDictionary.updateValue(stressed, forKey: "stressed")
-            emotionDictionary.updateValue(worried, forKey: "worried")
-            emotionDictionary.updateValue(meh, forKey: "meh")
             
             let rvc = segue.destinationViewController as ReasonViewController
             
@@ -232,10 +244,9 @@ class EmotionViewController: UIViewController {
             rvc.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
             
             rvc.background = img
+            rvc.emotion = current
             
             UIGraphicsEndImageContext();
-            
-            rvc.emotionsSelected = emotionDictionary
         }
     }
      

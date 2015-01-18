@@ -3,7 +3,7 @@
 //  learning-swift
 //
 //  Created by Brendan McManus on 1/16/15.
-//  Copyright (c) 2014 Brendan McManus. All rights reserved.
+//  Copyright (c) 2015 Brendan McManus. All rights reserved.
 //
 
 import UIKit
@@ -13,13 +13,6 @@ class ViewController: UIViewController, PFLogInViewControllerDelegate, PFSignUpV
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        var testObject = PFObject(className:"TestObject")
-        testObject["foo"] = "bar"
-        testObject.saveInBackground()
-        
-        
-        
     }
     
     override func viewDidAppear(animated: Bool) {
