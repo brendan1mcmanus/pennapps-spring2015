@@ -89,7 +89,7 @@ class HomeViewController : UIViewController {
     private func updateSuggestionLabel() {
         if (self.final < 50) {
             self.recommendationLabel.text = "I recommend meditation."
-            self.suggestionLabel.text = "You seem to be stresed lately"
+            self.suggestionLabel.text = "You seem to be stressed lately"
         }
         
         if (self.final < 70 && self.final > 50) {
@@ -104,7 +104,7 @@ class HomeViewController : UIViewController {
         
         if (self.final > 80) {
             self.recommendationLabel.text = "WOW!"
-            self.suggestionLabel.text = "You are doing stellar"
+            self.suggestionLabel.text = "You are doing stellarly"
         }
     }
     
