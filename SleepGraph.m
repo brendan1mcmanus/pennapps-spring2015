@@ -75,12 +75,4 @@
     
 }
 
-- (void) createTheImage{
-    [UPMoveAPI getMovesWithLimit:10U completion:^(NSArray *moves, UPURLResponse *response, NSError *error) {
-        for (UPMove *move in moves) {
-            NSLog(move.steps);
-        }
-    }];
-}
-
 @end

@@ -59,6 +59,12 @@ class HomeViewController : UIViewController {
         }
     }
     
+    private func calculateTheScore() {
+        
+        
+        
+        
+    }
     
     
     
