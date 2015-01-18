@@ -96,6 +96,18 @@
 		C68D70241A6A0C1F0028EBF3 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C68D70231A6A0C1F0028EBF3 /* backbutton.png */; };
 		C69B8DD11A6A0ABE00370DC2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B8DD01A6A0ABE00370DC2 /* SettingsViewController.swift */; };
 		C6A91E311A6AE7770020216F /* MovesGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A91E301A6AE7770020216F /* MovesGraph.m */; };
+		C6A91E3A1A6B2D660020216F /* Relationships.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E341A6B2D660020216F /* Relationships.png */; };
+		C6A91E3B1A6B2D660020216F /* Exercise.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E351A6B2D660020216F /* Exercise.png */; };
+		C6A91E3C1A6B2D660020216F /* Friends.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E361A6B2D660020216F /* Friends.png */; };
+		C6A91E3D1A6B2D660020216F /* Homework.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E371A6B2D660020216F /* Homework.png */; };
+		C6A91E3E1A6B2D660020216F /* Weather.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E381A6B2D660020216F /* Weather.png */; };
+		C6A91E3F1A6B2D660020216F /* Work.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E391A6B2D660020216F /* Work.png */; };
+		C6A91E461A6B2F780020216F /* Exercise_s.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E401A6B2F780020216F /* Exercise_s.png */; };
+		C6A91E471A6B2F780020216F /* Friends_s.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E411A6B2F780020216F /* Friends_s.png */; };
+		C6A91E481A6B2F780020216F /* Homework_s.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E421A6B2F780020216F /* Homework_s.png */; };
+		C6A91E491A6B2F780020216F /* Relationships_s.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E431A6B2F780020216F /* Relationships_s.png */; };
+		C6A91E4A1A6B2F780020216F /* Work_s.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E441A6B2F780020216F /* Work_s.png */; };
+		C6A91E4B1A6B2F780020216F /* Weather_s.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A91E451A6B2F780020216F /* Weather_s.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -249,6 +261,18 @@
 		C69B8DCE1A69F44F00370DC2 /* UPPlatformSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UPPlatformSDK.framework; sourceTree = "<group>"; };
 		C69B8DD01A6A0ABE00370DC2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C6A91E301A6AE7770020216F /* MovesGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovesGraph.m; path = ../MovesGraph.m; sourceTree = "<group>"; };
+		C6A91E341A6B2D660020216F /* Relationships.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Relationships.png; sourceTree = "<group>"; };
+		C6A91E351A6B2D660020216F /* Exercise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exercise.png; sourceTree = "<group>"; };
+		C6A91E361A6B2D660020216F /* Friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Friends.png; sourceTree = "<group>"; };
+		C6A91E371A6B2D660020216F /* Homework.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Homework.png; sourceTree = "<group>"; };
+		C6A91E381A6B2D660020216F /* Weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weather.png; sourceTree = "<group>"; };
+		C6A91E391A6B2D660020216F /* Work.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Work.png; sourceTree = "<group>"; };
+		C6A91E401A6B2F780020216F /* Exercise_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exercise_s.png; sourceTree = "<group>"; };
+		C6A91E411A6B2F780020216F /* Friends_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Friends_s.png; sourceTree = "<group>"; };
+		C6A91E421A6B2F780020216F /* Homework_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Homework_s.png; sourceTree = "<group>"; };
+		C6A91E431A6B2F780020216F /* Relationships_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Relationships_s.png; sourceTree = "<group>"; };
+		C6A91E441A6B2F780020216F /* Work_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Work_s.png; sourceTree = "<group>"; };
+		C6A91E451A6B2F780020216F /* Weather_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weather_s.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -482,6 +506,18 @@
 		C62F4D041A69D8C4003E9FDB /* Emotion Images */ = {
 			isa = PBXGroup;
 			children = (
+				C6A91E401A6B2F780020216F /* Exercise_s.png */,
+				C6A91E411A6B2F780020216F /* Friends_s.png */,
+				C6A91E421A6B2F780020216F /* Homework_s.png */,
+				C6A91E431A6B2F780020216F /* Relationships_s.png */,
+				C6A91E441A6B2F780020216F /* Work_s.png */,
+				C6A91E451A6B2F780020216F /* Weather_s.png */,
+				C6A91E341A6B2D660020216F /* Relationships.png */,
+				C6A91E351A6B2D660020216F /* Exercise.png */,
+				C6A91E361A6B2D660020216F /* Friends.png */,
+				C6A91E371A6B2D660020216F /* Homework.png */,
+				C6A91E381A6B2D660020216F /* Weather.png */,
+				C6A91E391A6B2D660020216F /* Work.png */,
 				C68D70231A6A0C1F0028EBF3 /* backbutton.png */,
 				C62F4D051A69D8D6003E9FDB /* emoteful-header-logo.png */,
 				C62F4D061A69D8D6003E9FDB /* Background.png */,
@@ -621,7 +657,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A91E481A6B2F780020216F /* Homework_s.png in Resources */,
 				C62F4D0A1A69D8D6003E9FDB /* emoteful-header-logo.png in Resources */,
+				C6A91E471A6B2F780020216F /* Friends_s.png in Resources */,
 				C62F4D0C1A69D8D6003E9FDB /* Circle.png in Resources */,
 				C62F4CFE1A69D8C0003E9FDB /* Sad.png in Resources */,
 				C62F4D171A69D8E7003E9FDB /* lifestyle_selected.png in Resources */,
@@ -629,21 +667,31 @@
 				C62F4CE11A69D895003E9FDB /* Main.storyboard in Resources */,
 				C62F4D1A1A69D8E7003E9FDB /* mind_un.png in Resources */,
 				C62F4CF81A69D8C0003E9FDB /* Angry.png in Resources */,
+				C6A91E4B1A6B2F780020216F /* Weather_s.png in Resources */,
+				C6A91E4A1A6B2F780020216F /* Work_s.png in Resources */,
 				C62F4D0D1A69D8D6003E9FDB /* Circle_white.png in Resources */,
 				C62F4D191A69D8E7003E9FDB /* mind_selected.png in Resources */,
+				C6A91E3E1A6B2D660020216F /* Weather.png in Resources */,
 				C62F4D001A69D8C0003E9FDB /* Stressed.png in Resources */,
+				C6A91E3D1A6B2D660020216F /* Homework.png in Resources */,
 				C62F4D0E1A69D8D6003E9FDB /* emoteful.png in Resources */,
 				C62F4C621A69D569003E9FDB /* LaunchScreen.xib in Resources */,
+				C6A91E461A6B2F780020216F /* Exercise_s.png in Resources */,
+				C6A91E3A1A6B2D660020216F /* Relationships.png in Resources */,
 				C62F4CFC1A69D8C0003E9FDB /* Meh.png in Resources */,
 				C62F4CF91A69D8C0003E9FDB /* Angry_Selected.png in Resources */,
+				C6A91E491A6B2F780020216F /* Relationships_s.png in Resources */,
 				C61905CB1A6ACC1700F48764 /* UPPlatformSDK-Info.plist in Resources */,
 				C62F4D161A69D8E7003E9FDB /* body_un.png in Resources */,
 				C62F4D0B1A69D8D6003E9FDB /* Background.png in Resources */,
 				C62F4D151A69D8E7003E9FDB /* body_selected.png in Resources */,
 				C62F4D011A69D8C0003E9FDB /* Stressed_Selected.png in Resources */,
+				C6A91E3C1A6B2D660020216F /* Friends.png in Resources */,
+				C6A91E3B1A6B2D660020216F /* Exercise.png in Resources */,
 				C62F4C5F1A69D569003E9FDB /* Images.xcassets in Resources */,
 				C62F4D021A69D8C0003E9FDB /* Worried.png in Resources */,
 				C62F4D031A69D8C0003E9FDB /* Worried_Selected.png in Resources */,
+				C6A91E3F1A6B2D660020216F /* Work.png in Resources */,
 				C62F4CFF1A69D8C0003E9FDB /* Sad_Selected.png in Resources */,
 				C62F4CFB1A69D8C0003E9FDB /* Happy_Selected.png in Resources */,
 				C68D70241A6A0C1F0028EBF3 /* backbutton.png in Resources */,

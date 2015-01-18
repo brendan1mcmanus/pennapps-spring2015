@@ -61,18 +61,23 @@ class EmotionViewController: UIViewController {
         sender.selected = !sender.selected
         if (AngryButton.selected) {
             AngryButton.selected = false
+            angry = false
         }
         if (SadButton.selected) {
             SadButton.selected = false
+            sad = false
         }
         if (StressedButton.selected) {
             StressedButton.selected = false
+            stressed = false
         }
         if (WorriedButton.selected) {
             WorriedButton.selected = false
+            worried = false
         }
         if (MehButton.selected) {
             MehButton.selected = false
+            meh = false
         }
         happy = !happy
     }
@@ -81,18 +86,23 @@ class EmotionViewController: UIViewController {
         sender.selected = !sender.selected
         if (AngryButton.selected) {
             AngryButton.selected = false
+            angry = false
         }
         if (HappyButton.selected) {
             HappyButton.selected = false
+            happy = false
         }
         if (StressedButton.selected) {
             StressedButton.selected = false
+            stressed = false
         }
         if (WorriedButton.selected) {
             WorriedButton.selected = false
+            worried = false
         }
         if (MehButton.selected) {
             MehButton.selected = false
+            meh = false
         }
 
         sad = !sad
@@ -102,18 +112,23 @@ class EmotionViewController: UIViewController {
         sender.selected = !sender.selected
         if (AngryButton.selected) {
             AngryButton.selected = false
+            angry = false
         }
         if (SadButton.selected) {
             SadButton.selected = false
+            sad = false
         }
         if (HappyButton.selected) {
             HappyButton.selected = false
+            happy = false
         }
         if (WorriedButton.selected) {
             WorriedButton.selected = false
+            worried = false
         }
         if (MehButton.selected) {
             MehButton.selected = false
+            meh = false
         }
 
         stressed = !stressed
@@ -123,18 +138,23 @@ class EmotionViewController: UIViewController {
         sender.selected = !sender.selected
         if (AngryButton.selected) {
             AngryButton.selected = false
+            angry = false
         }
         if (SadButton.selected) {
             SadButton.selected = false
+            sad = false
         }
         if (StressedButton.selected) {
             StressedButton.selected = false
+            stressed = false
         }
         if (HappyButton.selected) {
             HappyButton.selected = false
+            happy = false
         }
         if (MehButton.selected) {
             MehButton.selected = false
+            meh = false
         }
 
         worried = !worried
@@ -144,18 +164,23 @@ class EmotionViewController: UIViewController {
         sender.selected = !sender.selected
         if (AngryButton.selected) {
             AngryButton.selected = false
+            angry = false
         }
         if (SadButton.selected) {
             SadButton.selected = false
+            sad = false
         }
         if (StressedButton.selected) {
             StressedButton.selected = false
+            stressed = false
         }
         if (WorriedButton.selected) {
             WorriedButton.selected = false
+            worried = false
         }
         if (HappyButton.selected) {
             HappyButton.selected = false
+            happy = false
         }
 
         meh = !meh
@@ -165,18 +190,23 @@ class EmotionViewController: UIViewController {
         sender.selected = !sender.selected
         if (HappyButton.selected) {
             HappyButton.selected = false
+            happy = false
         }
         if (SadButton.selected) {
             SadButton.selected = false
+            sad = false
         }
         if (StressedButton.selected) {
             StressedButton.selected = false
+            stressed = false
         }
         if (WorriedButton.selected) {
             WorriedButton.selected = false
+            worried = false
         }
         if (MehButton.selected) {
             MehButton.selected = false
+            meh = false
         }
 
         angry = !angry
@@ -193,6 +223,17 @@ class EmotionViewController: UIViewController {
             emotionDictionary.updateValue(meh, forKey: "meh")
             
             let rvc = segue.destinationViewController as ReasonViewController
+            
+            UIGraphicsBeginImageContextWithOptions(view.bounds.size, view.opaque, 0.0);
+            view.layer.renderInContext(UIGraphicsGetCurrentContext())
+            var img: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+            UIGraphicsEndImageContext()
+            
+            rvc.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
+            
+            rvc.background = img
+            
+            UIGraphicsEndImageContext();
             
             rvc.emotionsSelected = emotionDictionary
         }
